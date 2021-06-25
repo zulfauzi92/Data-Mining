@@ -1,0 +1,12 @@
+3. train_data --> ambil dataset kolom fitur (Age, Fare). 
+Hilangkan baris data yang terdapat missing values 
+(catat posisi data yang hilang --> pos_missing_train)
+
+4. test_data --> ambil test_dataset kolom fitur (Age, Fare). 
+Hilangkan baris data yang terdapat missing values 
+(catat posisi data yang hilang --> pos_missing_test)
+
+5. train_label --> ambil dataset kolom kelas (Survived), 
+yang bukan pos_missing_train
+
+6. test_label --> titanic_testlabel.csv, yang bukan pos_missing_test
